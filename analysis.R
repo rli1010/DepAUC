@@ -4,7 +4,6 @@
 packages <- c("lme4", "survival", "splines", "rstan")
 suppressMessages(sapply(packages, require, character.only = TRUE))
 
-## load required data and fitted joint model
 load("Example.RData")
 
 extraY_var <- "Y1"                    ## biomarker of interest
