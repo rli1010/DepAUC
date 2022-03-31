@@ -1,7 +1,7 @@
 
 
 ## load required packages
-packages <- c("lme4", "survival", "splines", "rstan")
+packages <- c("lme4", "survival", "splines", "rstan","JM")
 suppressMessages(sapply(packages, require, character.only = TRUE))
 
 load("Example.RData")
