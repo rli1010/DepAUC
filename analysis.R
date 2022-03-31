@@ -9,8 +9,9 @@ load("Example.RData")
 extraY_var <- "Y1"                    ## biomarker of interest
 T.start = 0                           ## landmark time
 T.end = 5                             ## time point of interest
-M = 5                                 ## number of samples to use from the original MCMC samples, default = 200
-n.pt <- 5                             ## number of perturbation, default = 200
+M = 50                                 ## number of samples to use from the original MCMC samples, default = 200 for real data analysis
+n.pt <- 50                             ## number of perturbation, default = 200
+
 cutpoints <- median(longtest[[extraY_var]])  ## threshold to calculate sensitivity and specificity
 
 source("function.R")
