@@ -179,8 +179,10 @@ stanjm.prep.3Y2T <- function(longFormula, survFormula, longda, survda, assoc = "
 ## Output: 
 ##    Estimation of auc, sen, spe, including their SE's
 ##
-## Codes are extensions of those in Rizopoulos, D. (2011) and are adapted from the codes in R packages JM.
+## Algorithms are extensions of those in Rizopoulos, D. (2011). The codes below for aucDep and related functions
+## are adapted from the codes in R packages JM.
 ##############################################################################################
+			       
 aucDep <- function (stanfit, standat, newdata, T.start, T.end,
                     Yvar = NULL, cutpoints, simulate = TRUE, M = 200, n.pt = 200) {
 
