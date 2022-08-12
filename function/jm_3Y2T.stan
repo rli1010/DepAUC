@@ -3,7 +3,7 @@ This code was adapted from the codes in the following paper,
 Brilleman, S., Crowther, M., Moreno-Betancur, M., Buros Novik, J., & Wolfe, R. (2018). Joint longitudinal and time-to-event models via Stan. Proceedings of StanCon 2018, 1-18.
 
 The original code joint models two continuous longitudinal outcomes and one event outcome using stan. 
-In the code below, we extended to 3 longitudinal outcomes (Normal, Normal, and Bernulli distributions) and one main event outcome subject to a dependent censoring outcome.
+In the code below, we extended to 3 longitudinal outcomes (Normal, Normal, and Bernulli distributions), one main event outcome, and one dependent censoring event.
 */
   
 functions {
