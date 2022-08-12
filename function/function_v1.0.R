@@ -179,8 +179,10 @@ stanjm.prep.3Y2T <- function(longFormula, survFormula, longda, survda, assoc = "
 ## Output: 
 ##    Estimation of auc, sen, spe, including their SE's
 ##
-## Algorithms are extensions of those in Rizopoulos, D. (2011). The codes below for aucDep and related functions
-## are adapted from the codes in R packages JM.
+## Algorithms are extensions of those in Rizopoulos, D. (2011). The codes below for aucDep and related functions are adatpted from the codes in R package JM.
+##	       
+## Rizopoulos, D. (2011). Dynamic predictions and prospective accuracy in joint models for longitudinal and time-to-event data. Biometrics 67, 819–829.			       
+## JM: An R Package for the Joint Modelling of Longitudinal and Time-to-Event Data. Journal of Statistical Software, 35(9), 1–33.			       
 ##############################################################################################
 			       
 aucDep <- function (stanfit, standat, newdata, T.start, T.end,
